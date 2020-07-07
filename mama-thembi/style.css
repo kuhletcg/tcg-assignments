@@ -1,0 +1,12 @@
+body{ 
+    background-color: green;
+}
+img{
+    width :400px;
+    height : auto;
+
+}
+.flex container{
+    display: flex;
+    flex-flow: row wrap;
+}
