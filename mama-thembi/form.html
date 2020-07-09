@@ -1,3 +1,5 @@
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +9,88 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="First name"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Last name"><br><br>
-  <input type="submit" value="Submit">  
+  <form action ="resuilts.html" method = "Get" enctype="multipart/form-data">
+      <div>
+<label for = "name">Name </label>
+<input type ="text" name="name" id="name" required>      
+</div>
+<div>
+    <labe>
+        <label for="email">Email</label>
+        <input type= "email" name="email" id ="email" required>
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+    <input type="tel" name="phone" id ="Phone" required>
+</div>
+
+<div>
+    <labe>
+        <label for="birthday">Birthday</label>
+        <input type= "date" name="date" id ="date" min ="2005-07-15">
+    </div>
+<div>
+    <lable for="age">Age</lable>
+    <input type="age" name="age" id ="Age"min="1" max="200" step="S" >
+</div>
+<div>
+  Favorite veg 
+   <div>
+  <label for="onion">Onion</label>
+  <input type="checkbox"name="Onion" id="onion">  
+</div>
+</div>
+<div>
+  <label for="carrot">Carrot</label>
+  <input type="checkbox"name="Carrot" id="carrot">  
+</div>
+</div>
+<div>
+  <label for="cabbage">Cabbage</label>
+  <input type="checkbox"name="Cabbage" id="cabbage">  
+</div>
+</div>
+<div>
+  <label for="pumpkin">Pumpkin</label>
+  <input type="checkbox"name="Pumpking" id="pumpkin">  
+</div>
+</div>
+<div>
+  <label for="potatoes">Potatoes</label>
+  <input type="checkbox"name="potatoes" id="Potatoes">  
+</div>
+</div>
+<div>
+  <label for="tomatoes">Tomatoes</label>
+  <input type="checkbox"name="tomatoes" id="Tomatoes">  
+</div>
+<div>
+    Gender
+<div>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="Male" value="male">
+</div>
+<div>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" ="female">
+</div>
+<div>
+  <select name ="eyeColor" id="eyeColor" multiple>
+  <label for ="Eyecolor">Eye color</label>
+  <option value="Blue">Blue</option>
+<option label="Red" value="Red"></option>
+</div>
+<div> 
+  <label for=""bio>Bio</label>
+  <textarea id="hidden" name="hidden"  value="h1">
+<div>
+  <label for="file">File</label>
+  <input id="file" type="file" name="file">
+</div>
+<div>
+  <button type ="reset">Reset</button>
+<button type="submit">Submit</button>
+</div>
 </form>
 </body>
 </html>

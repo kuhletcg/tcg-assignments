@@ -30,8 +30,16 @@ p.dashed {border-style: dashed;
 button{
     margin: 4px;
     padding: 11px 22px;
+
 }
 .grid-container{
 display: grid;
 grid-template-columns: auto auto auto;
+}
+.sidebar{
+    margin: 0px;
+    padding: 200px;
+    position:fixed;
+    height: 100%;
+    overflow:auto;
 }
