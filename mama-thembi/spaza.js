@@ -1,22 +1,28 @@
-function tetchIssues(){
-    var issues = 
-}
-function myJsFunc() {
-    alert("myJsFunc");
-}
- <a href="javascript:void(0)" onclick="myJsFunc();">Run JavaScript Code</a>
-
-
-<select name ="eyeColor" id="eyeColor" multiple>
-  <label for ="Eyecolor">Eye color</label>
-  <option value="Blue">Blue</option>
-<option label="Red" value="Red"></option>
-</div>
-<div> 
-  <label for=""bio>Bio</label>
-  <textarea id="hidden" name="hidden"  value="h1">
-</div>
-  <div>
-  <label for="file">File</label>
-  <input id="file" type="file" name="file">
-</div>
+<!doctype html>
+<html>
+<head>
+<title>Calculator UI Design</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form class="calculator"name="calc">
+<input class="value" type="text" name="txt" readonly="">
+<span class="num clear" onclick="document.calc.txt.value +='-'">-</span>
+<span class="num" onclick="document.calc.txt.value +='7'">7</span>
+<span class="num" onclick="document.calc.txt.value +='8'">8</span>
+<span class="num" onclick="document.calc.txt.value +='9'">9</span>
+<span class="num" onclick="document.calc.txt.value +='-'">-</span>
+<span class="num" onclick="document.calc.txt.value +='4'">4</span>
+<span class="num" onclick="document.calc.txt.value +='5'">5</span>
+<span class="num" onclick="document.calc.txt.value +='6'">6</span>
+<span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
+<span class="num" onclick="document.calc.txt.value +='3'">3</span>
+<span class="num" onclick="document.calc.txt.value +='2'">2</span>
+<span class="num" onclick="document.calc.txt.value +='1'">1</span>
+<span class="num" onclick="document.calc.txt.value +='0'">0</span>
+<span class="num" onclick="document.calc.txt.value +='00'">00</span>
+<span class="num" onclick="document.calc.txt.value +='.'">.</span>
+<span class="num equal" onclick="document.calc.txt.value eval(calc.txt.value)">=</span>
+</form>
+</boby>
+</html>
